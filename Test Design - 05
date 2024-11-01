@@ -1,0 +1,50 @@
+Domain Testing
+-Pengujian dimana anda mengambil sejumlah tes yang mungkin, membaginya ke dalam subdomain(partisi ekuivalen), kemudian memilih perwakilan terbaik dari setiap subdomain unutk diuji..
+*Kelebihan:
+-Menemukan banyak kesalahan dengan satu set tes yang ecil
+-Sangat baik digunakan untuk program multi-variabel
+*Kekurangan:
+-Kesalahan yang tidak berada pada batas-batas
+-Jika analisis domain anda memiliki kekurangan, anda akan melewatkan bug
+
+Domain Testing - EP & BV
+(EP) Equivalence Partitioning
+Testing unutk mengeksukusi perwakilan dari partisi ekuivalen.
+-Equivalence Partitioning
+-Menguji hal yang sama
+-Satu pengujian menangkap bug, pengujian lain juga akan melakukanya
+-Satu engujian tidak menangkap bug,pengujian lain kemungkinan besar juga tidak akan melakukanya
+(BV) Boundry Value Analysis
+
+\*Equivalence Partitioning
+Ide di balik teknik ini adlaah unutuk membagi serangkaian kondisi pengujian ke dalam kelompok atau set yang dapat dianggap sama. ini bekerja berdasarkan beberapa asumsi:
+-Sistem akan menangani semua variasi input pengujian dalam suatu partisi dengan cara yang sama.
+-Jika salah satu kondisi input berhasil,maka semua kondisi input lainya dalam partisi tersebut juga akan berhasil
+-Jika salah satu kondisi input gagal,maka semua kondisi inputnlainya dalam partisi tersebut juga akan gagal.
+
+(EP) Equivalence Partitioning
+Misalkan, ada toko online yang menawarkan tarif pengiriman yang berbeda tergantung,pada harga kerangjang.contoh:
+1.Harga ongkir untuk order dibawah $100 adalah %15
+2.Harga ongkir untuk order diatas $100 adalah $5
+3.Gratis ongkir untuk order diatas $300
+Terdapat 3 kelompok, sehingga kita hanya cukup mengambil beberapa total order pada masing-masing kelas tanpa harus melaukan validasi keseluruhan total order
+(BV) Boundry Value Analysis
+Pada boundry,kita hanya cukup mengambil total order untuk mendapatkan semua kondisi biaya ongkir,
+Berikut adalah test ideda yang diperoleh
+-dari $2 hingga $100
+*kondisi valid : 1.00,1,01,99,9;
+*kondisi invalid : 0,99,100,0,100,01;
+-dari $100 hingga $300
+*kondisi valid : 100,00,100,01,299,9;
+*kondisi invalid : 0,99,300,00;
+-dari $1 hingga $100
+*kondisi valid 300,00,300,01;
+*kondisi invalid : 299,9
+Pada boundry,kita hanya cukup mengambil total order untuk mendapatkan semua kondisi biaya ongkir;
+
+Bpundry Value Analysis
+-Bagaimana anda tahu bahwa pengembang menggunakan .300 atau .=$300?
+analisis nilai batas adalah teknik yang dapat mendeteksi anomali pada batas partisi. ini dapat berkinerja pada semua tingkat penguijan dan digunakan secara utama untuk suatu rentang.
+*Angka
+*Tanggal
+\*Waktu
