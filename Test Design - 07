@@ -1,0 +1,7 @@
+Pairwise Testing
+Test case dirancang untuk mengeksekusi semua kombinasi diskrit yang mungkin dari setiap pasangan parameter input. kombinartorika.
+
+-Kelebihan
+*Dapat digunakan daam berbagai jenis dan skala proyek.
+*Mendapatkan cakupan pengujian yang lebih baik dengan usaha yang lebih sedikit dalam merancang kasus uji.
+\*Menemukan banyak kesalahan dengan satu set ts yang kecil.
