@@ -1,0 +1,12 @@
+Functional Test
+-Uji setiap fungsi secara menyeluruh,satu er satu,
+-Kelebihan;
+-Digunakan awal pengujiaan
+-Jika digunakan sebagai teknik dominan,analisis menyeluruh dari setiap item yang di uji.
+-Lebih baikk untuk menilai kapabilitas daripada keandalan.
+
+Functional Testing-2
+-Tidak mendeteksi interaksi.
+-Tidak mengatasi tugas pengguna.
+-Sering berfokus pada fitur bukn pada nilai batas.
+-Tidak mendeteksi masalah terkit beban/kinerja
