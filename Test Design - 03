@@ -1,0 +1,8 @@
+Specification Based Testing
+-Memeriksa produk berdasarkan spesifikasi dan dokumen persyaratan.:
+Kelebihan:
+*Pertahanan kritis terhadap klaim garansi.
+*Mengurangi biaya dukungan dan keluhan pelanggan dengan mengurangi risiko penyajian informasi yang salah kepada pelanggan.
+-Kekurangan
+*Masalah yang tidak ada dalam spesifikasi atau spesifikasi yang tidak jelas = pengujian yang tidak jelas,
+*Fokusnya adalah pada cakupan,bukan risiko.
