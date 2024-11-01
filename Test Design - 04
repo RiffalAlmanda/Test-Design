@@ -1,0 +1,11 @@
+Scenario Testing
+*Testing berdasarkan Scenario
+-Langkah demi langkah,mulai hingga selesai
+-Alur
+*Kelebihan
+-Mencakup carita/tindakan pengguna.
+-Alur Proses Bisnis
+-Mengungkapkan interaksi yang tidak benar antara komponen-komponen
+\*Kekurangan
+-Tidak memperhatikan skenario & alur
+-Memerlukan waktu unutk membuat & memperbarui
