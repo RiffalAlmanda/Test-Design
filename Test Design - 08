@@ -1,0 +1,14 @@
+Expreience Based Test
+\*Error Guessing
+-Error Guessing adalah praktik paling eksperimental dari semua,biasanya diterapkan bersama dengan teknik desain uji lainnya.
+Dalam error Guessing,seorang QA memprediksi dimana kesalahan kemungkinan besar muncul,mengandalkan pengalaman sebelumnya, pengetahuan tentang sistem, dan persyaratan produk.
+
+Contoh Error Guessing
+Dalam pengisian field, terdapat beberapa scenario error yang mungkin terjadi seperti
+*Input blank space(data kosong dalam text field.)
+*Menekan tombol submit tanpa input data apapun.
+*Input invalid parameters (memasukan email/huruf pada formulir nomor HP)
+*Uploud file yang melebihi batas maksimum upload file.
+
+How to Find Error>
+\*Pengalaman,product Knowledge dan analisis
